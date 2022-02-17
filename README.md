@@ -1,0 +1,2 @@
+# SiOt_socket
+SiOtをpythonからソケット通信でコマンドを送り操作するモジュール
