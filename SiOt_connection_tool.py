@@ -243,7 +243,7 @@ class SiOt_TCP:
         """
         self.client.send(b"@R10CRLF")
         response = self.receive(8)[4:6]
-        return self.htob(response)
+        return response
     
     #Etherフラグの変更
     def EtherFlag_change(self, ether_flag):
